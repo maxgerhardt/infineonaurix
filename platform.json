@@ -35,7 +35,7 @@
       "type": "framework",
       "owner": "platformio",
       "optional": true,
-      "version": "1.0.0"
+      "version": "https://github.com/juanjqh/framework-aurduino.git"
     },
     "framework-aurix": {
       "type": "framework",
@@ -46,7 +46,7 @@
     "tool-aurixflasher": {
       "type": "uploader",
       "optional": true,
-      "version": "1.0.0"
+      "version": "https://github.com/juanjqh/tool-aurixflasher"
     }
   }
 }
