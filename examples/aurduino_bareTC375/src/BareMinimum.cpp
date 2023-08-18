@@ -1,20 +1,3 @@
-/*** Don't worry, the normal Arduino setup() and loop() are below this block! ***/
-
-/* LMU uninitialised data */
-StartOfUninitialised_LMURam_Variables
-/* Put your LMU RAM fast access variables that have no initial values here e.g. uint32 LMU_var; */
-EndOfUninitialised_LMURam_Variables
-
-/* LMU uninitialised data */
-StartOfInitialised_LMURam_Variables
-/* Put your LMU RAM fast access variables that have an initial value here e.g. uint32 LMU_var_init = 1; */
-EndOfInitialised_LMURam_Variables
-
-/* If you do not care where variables end up, declare them here! */
-
-
-
-
 /*** Core 0 ***/
 
 void setup() {

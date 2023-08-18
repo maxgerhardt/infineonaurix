@@ -24,18 +24,18 @@
     "toolchain-hightec": {
       "type": "toolchain",
       "optional": true,
-      "version": "C:/HighTec/toolchains/tricore/v4.9.3.0-infineon-1.0"
+      "version": "symlink://C:/HighTec/toolchains/tricore/v4.9.3.0-infineon-1.0"
     },
     "toolchain-tricore_gcc494": {
       "type": "toolchain",
       "optional": true,
-      "version": "1.0.0"
+      "version": "https://github.com/maxgerhardt/toolchain-tricore_gcc494.git"
     },
     "framework-aurduino": {
       "type": "framework",
       "owner": "platformio",
       "optional": true,
-      "version": "https://github.com/juanjqh/framework-aurduino.git"
+      "version": "https://github.com/maxgerhardt/framework-aurduino.git"
     },
     "framework-aurix": {
       "type": "framework",
